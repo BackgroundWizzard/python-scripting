@@ -1,0 +1,12 @@
+import platform
+import os
+import datetime
+import psutil
+#from os import system   later maybe
+print("Processor:", platform.processor())
+#print("RAM:", platform.ram())   didnt work
+print("Platform:", platform.platform())
+print("Arch#:", platform.architecture())
+ram = psutil.virtual_memory()
+print("RAM:", ram.total / (1024**3), "GB")
+
