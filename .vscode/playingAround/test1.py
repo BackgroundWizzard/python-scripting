@@ -1,6 +1,9 @@
+s = input()
 
+def reverse_string(s):
+    return s[::-1]
 
-xi = input("4")
-print(xi)
-if xi == int:
-    print("Error")
+if s:
+    print(reverse_string(s))
+else:
+    print("No string provided")
