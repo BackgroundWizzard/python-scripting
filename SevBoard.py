@@ -15,7 +15,7 @@ import datetime
 import random
 #import python_weather
 # ---- YOUR PERSONAL SETTINGS ----
-YOUR_NAME = "Kelvin"   # <-- Change this to your name!
+YOUR_NAME = "Sev"   # <-- Change this to your name!
 
 QUOTES = [
     "The secret of getting ahead is getting started. – Mark Twain",
@@ -49,7 +49,7 @@ def show_greeting():
     time_str = now.strftime("%I:%M %p")        # e.g. 09:30 AM
 
     print_separator()
-    print(f"  👋  Good morning, {YOUR_NAME}!")
+    print(f"  👋  Good morning, {"Sev"}!")
     print(f"  📅  {date_str}")
     print(f"  🕐  {time_str}")
     print_separator()
